@@ -71,3 +71,8 @@ li button{
   outline: none;
   cursor: pointer;
 }
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
