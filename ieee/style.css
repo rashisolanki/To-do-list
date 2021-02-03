@@ -1,3 +1,17 @@
+@media screen and (max-width: 1024px){
+  body{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -200px;
+  }
+}
+body{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container{
   width: 800px;
   padding: 10px;
@@ -70,9 +84,4 @@ li button{
   border: none;
   outline: none;
   cursor: pointer;
-}
-body {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
